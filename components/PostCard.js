@@ -34,7 +34,7 @@ export async function getStaticProps() {
 // }
 const PostCard = () => {
   return (
-    <div className="post flex border-[#ccc] py-4 ">
+    <div className="post flex  py-1 ">
       <div className="count_box px-4 xl:px-10 flex justify-center items-center ">
         <h5 className="count font-bold text-blue-400">
           5 <BiLike />{" "}
@@ -44,7 +44,7 @@ const PostCard = () => {
       <div className="post_view">
         <Link href="/post/[id]">
           <a>
-            <h3 className="post_title overflow-hidden font-bold text-gray-800 overflow-ellipsis hover:text-yellow-800">
+            <h3 className="post_title text-xs overflow-hidden font-bold text-gray-800 overflow-ellipsis hover:text-yellow-800">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </h3>
           </a>
