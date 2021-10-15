@@ -33,6 +33,7 @@ const Post = () => {
               width={1000}
               height={500}
               layout="responsive"
+              alt="Post thumbnail"
             />
           </div>
           <p>
