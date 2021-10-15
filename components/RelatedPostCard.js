@@ -11,6 +11,7 @@ const RelatedPostCard = () => {
           width={100}
           height={70}
           layout="responsive"
+          alt="post_show_thumbnail"
         />
         <h4>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo,
