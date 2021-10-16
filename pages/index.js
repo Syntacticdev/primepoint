@@ -47,7 +47,7 @@ export default function Home({ data }) {
             </span>
           </div>
           <div>
-            {Array(10)
+            {Array(25)
               .fill(<PostCard />)
               .map((post, index) => {
                 return <div key={index}>{post}</div>;

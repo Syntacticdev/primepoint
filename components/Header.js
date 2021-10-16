@@ -7,7 +7,7 @@ const Header = () => {
   const [isAuth, setisAuth] = useState(false);
   return (
     <div className="header z-10 fixed top-0 text-white w-full  m-0 overflow-hidden">
-      <nav className="flex justify-between align-middle  py-5 px-8 xl:px-44  bg-black  ">
+      <nav className="flex justify-between align-middle  py-3 px-8 xl:px-44  bg_prm  ">
         <Link href="/">
           <a className="logo  text-2xl font-bold ">PRIME</a>
         </Link>
